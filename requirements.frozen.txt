@@ -347,7 +347,7 @@ tf-keras==2.20.1
     # via -r requirements.txt
 threadpoolctl==3.6.0
     # via scikit-learn
-tqdm==4.67.3
+tqdm==4.69.1
     # via
     #   deepface
     #   gdown
