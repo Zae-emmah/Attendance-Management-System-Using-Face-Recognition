@@ -7,7 +7,7 @@ ARG PYTHON_VERSION=3.12.10
 # =============================================================================
 # Stage 1: Build Frontend
 # =============================================================================
-FROM node:20.11.1-alpine@sha256:bf77dc26e48ea95fca9d1aceb5acfa69d2e546b765ec2abfb502975f1a2d4def AS frontend-build
+FROM node:26.11.1-alpine@sha256:143494b1da2945f061539253adc65e4f1569ddf07da2d384c022c791a9d90a4a AS frontend-build
 
 RUN npm install -g pnpm@9.15.0
 
